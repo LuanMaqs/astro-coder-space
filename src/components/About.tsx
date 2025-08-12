@@ -6,22 +6,22 @@ const About = () => {
     {
       icon: Code,
       title: "Desenvolvimento",
-      description: "React, TypeScript, Node.js, Python"
+      description: "React, TypeScript, Node.js, Java, N8N"
     },
     {
       icon: Palette,
-      title: "Design",
-      description: "UI/UX, Figma, Design Systems"
+      title: "Salesforce",
+      description: "Adimistrador, Apex, Lwc e triggers"
     },
     {
       icon: Rocket,
-      title: "Performance",
-      description: "Otimização, SEO, Performance Web"
+      title: "Banco de dados",
+      description: "MongoDB, SQL, PostegresSQl, MariaDB"
     },
     {
       icon: Users,
       title: "Colaboração",
-      description: "Git, Agile, Trabalho em Equipe"
+      description: "Git, Trabalho em Equipe"
     }
   ];
 
@@ -46,7 +46,7 @@ const About = () => {
                 <div className="relative w-80 h-80 mx-auto lg:mx-0">
                   <img
                     src={profilePhoto}
-                    alt="João Developer"
+                    alt="Luan Marques"
                     className="w-full h-full object-cover rounded-2xl shadow-card"
                   />
                   <div className="absolute inset-0 rounded-2xl bg-gradient-primary opacity-0 hover:opacity-20 transition-opacity duration-300"></div>
@@ -63,22 +63,21 @@ const About = () => {
               
               <div className="space-y-4 text-muted-foreground leading-relaxed">
                 <p>
-                  Olá! Sou João, um desenvolvedor apaixonado por criar soluções digitais 
-                  que fazem a diferença. Com mais de 3 anos de experiência, trabalho com 
-                  tecnologias modernas para desenvolver aplicações web robustas e escaláveis.
+                  Olá! Sou Luan Marques, desenvolvedor com foco em backend, automações e integração de sistemas.
+                  Trabalho para entregar soluções digitais robustas, seguras e escaláveis, alinhadas às necessidades
+                  do negócio e com alto padrão de qualidade.
                 </p>
-                
+
                 <p>
-                  Minha jornada começou com curiosidade sobre como os sites funcionam, 
-                  e hoje transformo ideias em realidade através do código. Acredito que 
-                  a tecnologia deve ser acessível, intuitiva e, acima de tudo, útil para 
-                  as pessoas.
+                  Minha trajetória começou explorando como aplicações web funcionam. Desde então, venho
+                  aprimorando minhas habilidades em arquitetura de software, APIs e banco de dados,
+                  sempre buscando eficiência e boas práticas de desenvolvimento.
                 </p>
-                
+
                 <p>
-                  Quando não estou codando, você pode me encontrar explorando novas 
-                  tecnologias, contribuindo para projetos open source ou compartilhando 
-                  conhecimento com a comunidade dev.
+                  Além de programar, mantenho-me atualizado sobre novas tecnologias e metodologias,
+                  participando de projetos colaborativos e explorando inovações que gerem valor real
+                  para empresas e usuários.
                 </p>
               </div>
 

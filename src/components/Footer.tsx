@@ -10,7 +10,7 @@ const Footer = () => {
           {/* Copyright */}
           <div className="text-center md:text-left mb-4 md:mb-0">
             <p className="text-muted-foreground">
-              © {currentYear} João Developer. Todos os direitos reservados.
+              © {currentYear} Luan Marques. Todos os direitos reservados.
             </p>
           </div>
 

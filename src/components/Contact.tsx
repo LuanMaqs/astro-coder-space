@@ -42,19 +42,19 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email",
-      value: "joao@developer.com",
-      link: "mailto:joao@developer.com"
+      value: "lm7007fernandes@gmail.com",
+      link: "mailto:lm7007fernandes@gmail.com"
     },
     {
       icon: Phone,
       title: "Telefone",
-      value: "+55 (11) 99999-9999",
-      link: "tel:+5511999999999"
+      value: "+351 927 697 914",
+      link: "tel:+351927697914"
     },
     {
       icon: MapPin,
       title: "Localização",
-      value: "São Paulo, Brasil",
+      value: "Braga, Portugal",
       link: "#"
     }
   ];
@@ -63,25 +63,19 @@ const Contact = () => {
     {
       icon: Github,
       label: "GitHub",
-      href: "https://github.com",
+      href: "https://github.com/LuanMaqs",
       color: "hover:text-foreground"
     },
     {
       icon: Linkedin,
       label: "LinkedIn",
-      href: "https://linkedin.com",
-      color: "hover:text-blue-400"
-    },
-    {
-      icon: Twitter,
-      label: "Twitter",
-      href: "https://twitter.com",
+      href: "https://www.linkedin.com/in/luanmarques006/",
       color: "hover:text-blue-400"
     },
     {
       icon: Instagram,
       label: "Instagram",
-      href: "https://instagram.com",
+      href: "https://www.instagram.com/0luaan4/",
       color: "hover:text-pink-400"
     }
   ];

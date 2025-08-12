@@ -42,7 +42,7 @@ const Header = () => {
             className="text-2xl font-bold bg-gradient-primary bg-clip-text text-transparent cursor-pointer"
             onClick={() => scrollToSection('home')}
           >
-            João Developer
+            Luan Marques
           </div>
 
           {/* Menu Desktop */}

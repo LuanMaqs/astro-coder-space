@@ -50,10 +50,10 @@ const Hero = () => {
           {/* Main Title */}
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-6">
             <span className="bg-gradient-primary bg-clip-text text-transparent">
-              João
+              Luan
             </span>
             <br />
-            <span className="text-foreground">Developer</span>
+            <span className="text-foreground">Marques</span>
           </h1>
           
           {/* Subtitle */}
@@ -82,9 +82,9 @@ const Hero = () => {
           {/* Social Links */}
           <div className="flex justify-center space-x-6 mb-16">
             {[
-              { icon: Github, href: "#", label: "GitHub" },
-              { icon: Linkedin, href: "#", label: "LinkedIn" },
-              { icon: Mail, href: "#", label: "Email" }
+              { icon: Github, href: "https://github.com/LuanMaqs", label: "GitHub" },
+              { icon: Linkedin, href: "https://www.linkedin.com/in/luanmarques006/", label: "LinkedIn" },
+              { icon: Mail, href: "mailto:lm7007fernandes@gmail.com", label: "Email" }
             ].map(({ icon: Icon, href, label }) => (
               <a
                 key={label}
