@@ -1,73 +1,71 @@
-# Welcome to your Lovable project
+# Bem-vindo ao meu Portfólio
 
-## Project info
+## Sobre o projeto
 
-**URL**: https://lovable.dev/projects/51dac81a-8911-42f2-a26e-ccf4077bbdd1
+Este portfólio foi criado para expor e apresentar alguns dos meus principais projetos, destacando minhas habilidades e experiências na prática.
 
-## How can I edit this code?
+## Como configurar e rodar o projeto localmente
 
-There are several ways of editing your application.
+Siga os passos abaixo para clonar o repositório, instalar as dependências e configurar a integração com o banco de dados.
 
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/51dac81a-8911-42f2-a26e-ccf4077bbdd1) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
+### Passo 1: Clonar o repositório
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+git clone <URL_DO_SEU_REPOSITORIO>
+cd <NOME_DO_SEU_PROJETO>
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+```
+### Passo 2: Instalar as dependências
+```sh
+Copiar
+Editar
+npm install
 ```
 
-**Edit a file directly in GitHub**
+### Passo 3: Configurar variáveis de ambiente
+```sh
+Crie um arquivo .env na raiz do projeto com as informações necessárias para conexão ao banco e outras configurações. Exemplo:
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+ini
+Copiar
+Editar
+DATABASE_URL=postgresql://user:password@localhost:5432/nome_do_banco
+PORT=3001
 
-**Use GitHub Codespaces**
+SMTP_HOST=smtp.example.com
+SMTP_PORT=587
+SMTP_SECURE=false
+SMTP_USER=seu_usuario_smtp
+SMTP_PASS=sua_senha_smtp
+SMTP_FROM="Seu Nome <seuemail@exemplo.com>"
+Importante: Substitua os valores acima pelos dados corretos do seu ambiente.
+````
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+### Passo 4: Rodar a aplicação
 
-## What technologies are used for this project?
 
-This project is built with:
+```sh
+Copiar
+Editar
+npm run dev
+O servidor deve iniciar na porta configurada (ex: 3001).
+```
+## Tecnologias utilizadas
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- **Node.js**  
+- **Express**  
+- **PostgreSQL**  
+- **Vite**  
+- **TypeScript**  
+- **React**  
+- **shadcn-ui**  
+- **Tailwind CSS**  
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/51dac81a-8911-42f2-a26e-ccf4077bbdd1) and click on Share -> Publish.
+## Como visualizar o portfólio
 
-## Can I connect a custom domain to my Lovable project?
+Após iniciar a aplicação, acesse no navegador:
 
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+```plaintext
+http://localhost:3001
